@@ -6,6 +6,7 @@ const Country = ({country}) => {
     const{name, area, capital, flags, region } = country;
     return (
         <div className='country'>
+        <img src={flags.png} alt="" />
             <h3>Name: {name.common}</h3>
             <p>Area: {area}</p>
             <p>Region: {region}</p>
