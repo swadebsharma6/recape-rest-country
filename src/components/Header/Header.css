@@ -1,0 +1,15 @@
+.element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(108, 121, 116);
+  padding: 10px;
+}
+.element a {
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+}
+.element a:hover {
+  color: orangered;
+}
